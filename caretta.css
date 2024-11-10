@@ -1,0 +1,156 @@
+
+#cabeza {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/02/14/21/background-1877877_640.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+
+#cabeza h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#cabeza-titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#cabeza-titulo h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #2c3e50;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+
+#contenido {
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+.animal-titulo h2 a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+.animal-titulo h2 a:hover {
+    text-decoration: underline;
+}
+
+/* Imágenes */
+.animal-imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Detalles */
+.animal_texto h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.animal-details p {
+    margin-bottom: 10px;
+}
+
+/* Galería */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+article {
+    display: block;
+    margin-top: 20px;
+}
+
+article div {
+    background-color: #faffc9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+article ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #d7ffc0;
+    color: #000000;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer h2 {
+    font-size: 1.5em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
+}
