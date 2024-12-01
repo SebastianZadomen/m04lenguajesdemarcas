@@ -1,58 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>contacta</title>
-    <link rel="stylesheet" href="contacta.css">
+  <meta charset="UTF-8">
+  <title>Contacta</title>
+  <link rel="stylesheet" href="contacta.css">
 </head>
 <body>
-<section id="cabeza">
+<header>
+  <section id="cabeza">
     <h1>EPEPC</h1>
-</section>
-<nav>
+  </section>
+
+  <nav id="navbar">
     <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="list.html">Llistat</a></li>
-        <li><a href="Contacta.html">Contacta</a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="list.html">Llistat</a></li>
+      <li><a href="Contacta.html">Contacta</a></li>
     </ul>
-</nav>
+  </nav>
+</header>
+
+
 <h2><p>Contacta</p></h2>
-<form action="/my-handling-form-page" method="post">
-    <div>
-        <label for="name">El teu nom *</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-    <div>
-        <label for="mail">El teu correu electrònic *</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-        <label for="text">Titol*</label>
-        <input type="text" id="text" name="text">
-    </div>
-    <div>
-        <label for="msg">Missatge *</label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
-    <div class="button">
-        <button type="submit">Enviar Mensaje</button>
-    </div>
+
+
+<div id="errors"></div>
+
+<form id="contacta" action="../endform.html" method="get">
+  <div>
+    <label for="name">El teu nom *</label>
+    <input id="name" name="user_name">
+  </div>
+  <div>
+    <label for="mail">El teu correu electrònic *</label>
+    <input  id="mail" name="user_mail">
+  </div>
+  <div>
+    <label for="text">Titol*</label>
+    <input  id="text" name="text">
+  </div>
+  <div>
+    <label for="msg">Missatge *</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+  <div class="button">
+    <button type="submit">Enviar Mensaje</button>
+  </div>
 </form>
+
+<!-- Artículo de licencia -->
 <article>
-    <div>
-        <h2>Llicència</h2>
-        <p>Pàgina web creada per Mar Pi</p>
-        <p>Llicència <a href="https://creativecommons.org/">Commons Reconeixement-NoComercial-CompartirIgual 3.0</a></p>
-        <img src="https://encyclopaedia.herdereditorial.com/w/images/0/06/By-nc-nd.eu.png">
-    </div>
+  <div>
+    <h2>Llicència</h2>
+    <p>Pàgina web creada per Mar Pi</p>
+    <p>Llicència <a href="https://creativecommons.org/">Commons Reconeixement-NoComercial-CompartirIgual 3.0</a></p>
+  </div>
 </article>
 
+<!-- Pie de página -->
 <footer>
-    <h2>Segueix-nos</h2>
-    <ul>
-        <li><a href="https://joinmastodon.org/ca">Mastodon</a></li>
-        <li><a href="https://www.iucnredlist.org/">Diaspora</a></li>
-    </ul>
+  <h2>Segueix-nos</h2>
+  <ul>
+    <li><a href="https://joinmastodon.org/ca">Mastodon</a></li>
+    <li><a href="https://www.iucnredlist.org/">Diaspora</a></li>
+  </ul>
 </footer>
+
+<!-- Incluir el archivo JavaScript al final del body -->
+<script src="contacta.js" type="module"></script>
 </body>
 </html>
